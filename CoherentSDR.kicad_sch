@@ -1,0 +1,438 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "156bbb46-a717-4de3-b783-cbb954a57d2b")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 96.52 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b068484f-afa4-4574-bb00-caee10b97a4a")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 144.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5362c6-a605-42a1-80e7-08388ddad9bd")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 96.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d97334f-4dcd-48ca-9f8e-db9cfbc3e219")
+	)
+	(wire
+		(pts
+			(xy 147.32 118.11) (xy 147.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4762bd0a-55b6-45dc-80b5-26e2d1890013")
+	)
+	(wire
+		(pts
+			(xy 147.32 80.01) (xy 152.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d918c3d-7b47-40ac-a87c-f58990c5cc63")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5806d29b-ddf8-4da2-bd1f-491207d57104")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 147.32 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad632ce-1e31-42f1-931c-73d2a4cb3f6d")
+	)
+	(wire
+		(pts
+			(xy 93.98 118.11) (xy 101.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afa134e-bade-4ae6-9306-66d140e8fcde")
+	)
+	(wire
+		(pts
+			(xy 139.7 114.3) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619048d2-ee6e-4b77-bcf1-1111bbac7dc0")
+	)
+	(wire
+		(pts
+			(xy 140.97 63.5) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6503be19-b84b-4ca3-a3ab-b9a240ce35da")
+	)
+	(wire
+		(pts
+			(xy 93.98 67.31) (xy 93.98 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90821746-5d9c-4681-80c2-fb3e1f2a5a25")
+	)
+	(wire
+		(pts
+			(xy 101.6 114.3) (xy 96.52 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6e496d-268b-4527-bdea-aa514847ccc5")
+	)
+	(wire
+		(pts
+			(xy 96.52 114.3) (xy 96.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef78f2b-b6c0-4d96-9075-075e35ede2ed")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6dbc60a-bfba-4c3b-a4d1-1fa8d4f4903b")
+	)
+	(wire
+		(pts
+			(xy 88.9 67.31) (xy 93.98 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb9c961f-a7fc-4800-b972-16b60ef018f5")
+	)
+	(sheet
+		(at 101.6 101.6)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1aa4cc7b-4bc7-4944-b0a5-abdf57c68eb6")
+		(property "Sheetname" "VFO"
+			(at 101.6 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vfo.kicad_sch"
+			(at 101.6 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 101.6 118.11 180)
+			(uuid "f260a76d-7734-4774-b8c4-1dfc8be5678e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V" input
+			(at 101.6 114.3 180)
+			(uuid "62848971-7073-47e5-98aa-7bf77b0f24fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VFO_I" output
+			(at 139.7 114.3 0)
+			(uuid "113db293-d28f-4ca3-b224-a195fe9fd32b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VFO_Q" output
+			(at 139.7 118.11 0)
+			(uuid "d4ca0ee0-ea53-4352-8cc7-d09f1f3a56be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CoherentSDR"
+				(path "/156bbb46-a717-4de3-b783-cbb954a57d2b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 50.8)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7dc581ce-adb6-4098-82f9-aa2f429a0d3c")
+		(property "Sheetname" "MIXER AFOUT"
+			(at 152.4 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mixer.kicad_sch"
+			(at 152.4 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ANTENNA_IN" input
+			(at 152.4 63.5 180)
+			(uuid "850a9890-ba73-40a5-a351-57dbf685d656")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VFO_I" input
+			(at 152.4 76.2 180)
+			(uuid "0b9e87f7-78b0-4807-b5d7-fb33f4eb5fac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VFO_Q" input
+			(at 152.4 80.01 180)
+			(uuid "fbbe6958-7ca7-4c31-85ad-16840716b1b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoherentSDR"
+				(path "/156bbb46-a717-4de3-b783-cbb954a57d2b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 50.8)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5d9818d-1a5d-40ae-8a4f-6505d879f01e")
+		(property "Sheetname" "PSU"
+			(at 50.8 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psu.kicad_sch"
+			(at 50.8 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" output
+			(at 88.9 67.31 0)
+			(uuid "e8e749e7-a88e-4cff-adcc-1b055ec2fcbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" output
+			(at 88.9 63.5 0)
+			(uuid "ef243e8e-4471-457c-bf07-a1bca4df4099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CoherentSDR"
+				(path "/156bbb46-a717-4de3-b783-cbb954a57d2b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 50.8)
+		(size 39.37 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb1c47be-e005-4a44-8d59-24c062287623")
+		(property "Sheetname" "FILTER PREAMP"
+			(at 101.6 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "filter_preamp.kicad_sch"
+			(at 101.6 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "12V" input
+			(at 101.6 63.5 180)
+			(uuid "946dacce-8547-47c7-861c-624efa7eb8a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PREAMP_OUT" output
+			(at 140.97 63.5 0)
+			(uuid "07b32bb3-e2ff-4722-ae2e-fca74e305c9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CoherentSDR"
+				(path "/156bbb46-a717-4de3-b783-cbb954a57d2b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
