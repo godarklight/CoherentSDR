@@ -628,7 +628,11 @@
     ],
     [
       "7dc581ce-adb6-4098-82f9-aa2f429a0d3c",
-      "MIXER AFOUT"
+      "MIXER"
+    ],
+    [
+      "1ce7505a-6b36-4476-83b9-9928208b6c00",
+      "AFOUT"
     ]
   ],
   "text_variables": {}

@@ -5,11 +5,15 @@
 	(uuid "156bbb46-a717-4de3-b783-cbb954a57d2b")
 	(paper "A4")
 	(lib_symbols)
-	(junction
-		(at 96.52 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b068484f-afa4-4574-bb00-caee10b97a4a")
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a6b3cf-4b63-4f6c-8b60-ccf113925050")
 	)
 	(wire
 		(pts
@@ -20,6 +24,16 @@
 			(type default)
 		)
 		(uuid "1a5362c6-a605-42a1-80e7-08388ddad9bd")
+	)
+	(wire
+		(pts
+			(xy 190.5 80.01) (xy 203.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f64745e-a053-461b-a7f4-5d4bff9bcce7")
 	)
 	(wire
 		(pts
@@ -43,6 +57,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 45.72) (xy 96.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491226f7-30c3-4050-a2c2-1d0933492523")
+	)
+	(wire
+		(pts
 			(xy 147.32 80.01) (xy 152.4 80.01)
 		)
 		(stroke
@@ -60,6 +84,26 @@
 			(type default)
 		)
 		(uuid "5806d29b-ddf8-4da2-bd1f-491207d57104")
+	)
+	(wire
+		(pts
+			(xy 96.52 45.72) (xy 199.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e14ee7-3924-4b5d-a4c8-f53fcb1c5dc4")
+	)
+	(wire
+		(pts
+			(xy 88.9 55.88) (xy 96.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e250c1-44ce-48bd-9951-0fe542f068f3")
 	)
 	(wire
 		(pts
@@ -103,6 +147,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 59.69) (xy 101.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf57ac3-d63c-407a-b59c-cc14cee83234")
+	)
+	(wire
+		(pts
 			(xy 93.98 67.31) (xy 93.98 118.11)
 		)
 		(stroke
@@ -133,13 +187,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 63.5) (xy 101.6 63.5)
+			(xy 199.39 45.72) (xy 199.39 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6dbc60a-bfba-4c3b-a4d1-1fa8d4f4903b")
+		(uuid "cd1533e9-150f-4b5e-9975-74a1596b79a3")
+	)
+	(wire
+		(pts
+			(xy 199.39 62.23) (xy 203.2 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafafe45-075d-4741-9876-823e39326a70")
 	)
 	(wire
 		(pts
@@ -234,6 +298,78 @@
 		)
 	)
 	(sheet
+		(at 203.2 50.8)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ce7505a-6b36-4476-83b9-9928208b6c00")
+		(property "Sheetname" "AFOUT"
+			(at 203.2 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "afout.kicad_sch"
+			(at 203.2 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "12V_AFOUT" input
+			(at 203.2 62.23 180)
+			(uuid "2ab60164-8f2e-4c5e-842d-fd02eca67179")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AF_I" input
+			(at 203.2 76.2 180)
+			(uuid "60fa1d04-72b6-4b0b-9800-98d7c2e8d5ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AF_Q" input
+			(at 203.2 80.01 180)
+			(uuid "5dc17f19-3254-4fe2-a68d-254845406f95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CoherentSDR"
+				(path "/156bbb46-a717-4de3-b783-cbb954a57d2b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 152.4 50.8)
 		(size 38.1 38.1)
 		(exclude_from_sim no)
@@ -249,7 +385,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "7dc581ce-adb6-4098-82f9-aa2f429a0d3c")
-		(property "Sheetname" "MIXER AFOUT"
+		(property "Sheetname" "MIXER"
 			(at 152.4 50.0884 0)
 			(effects
 				(font
@@ -295,6 +431,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "AF_I" output
+			(at 190.5 76.2 0)
+			(uuid "c9261b6c-81a6-4464-b59e-3397a5dfc711")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AF_Q" output
+			(at 190.5 80.01 0)
+			(uuid "c18c33a1-abf9-440e-acc5-04d71d4a0375")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -359,6 +515,26 @@
 				(justify right)
 			)
 		)
+		(pin "12V_AFOUT" output
+			(at 88.9 55.88 0)
+			(uuid "5999f343-40e0-4a7a-aa4f-3c08f01411cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_PREAMP" output
+			(at 88.9 59.69 0)
+			(uuid "0c6c2177-5a39-4cb4-bde2-d155657cb248")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "CoherentSDR"
 				(path "/156bbb46-a717-4de3-b783-cbb954a57d2b"
@@ -401,8 +577,8 @@
 				(justify left top)
 			)
 		)
-		(pin "12V" input
-			(at 101.6 63.5 180)
+		(pin "12V_PREAMP" input
+			(at 101.6 59.69 180)
 			(uuid "946dacce-8547-47c7-861c-624efa7eb8a4")
 			(effects
 				(font
