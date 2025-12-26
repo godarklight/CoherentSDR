@@ -941,7 +941,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TR1, TR2\n34turns T50-6\n\nC6 2cm twisted wire"
+	(text "TR1, TR2\n34turns T50-6\ntap at 4 turns\n\nC6 2cm twisted wire"
 		(exclude_from_sim no)
 		(at 82.296 48.26 0)
 		(effects
